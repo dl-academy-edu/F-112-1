@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2C3036;
+}
+
+a {
+    text-decoration: none;
+}
+
+.undotted {
+    list-style-type: none;
+    
+}
+
+.button {
+    background: #008752;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.button-secondary {
+    background: #95459A;
+}
+
+.footer {
+    background: #00559D;
+}
