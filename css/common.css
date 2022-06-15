@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -6,12 +10,24 @@ body {
     color: #2C3036;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
 .undotted {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -22,10 +38,57 @@ a {
     font-size: 15px;
     line-height: 18px;
     text-transform: uppercase;
+    display: block;
+    width: 181px;
+    text-align: center;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
 }
 
 .button-secondary {
     background: #95459A;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.header-menu {
+    margin: 0 auto 0 25px;
+}
+
+.header-list {
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.header-menu a {
+    color: #333333;
+    margin-right: 30px;
+}
+
+/* MAP */
+
+.map {
+    background: url('../img/map.jpg') no-repeat;
+    background-size: cover;
+}
+
+.map .container {
+    padding: 40px 0 133px;
+}
+
+.map-wrapper {
+    width: 380px;
+    background: #008752;
+    color: #fff;
+    padding: 50px 44px 26px;
 }
 
 .footer {

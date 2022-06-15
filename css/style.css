@@ -1,5 +1,58 @@
-.services-list li {
 
+
+/* BANNER */
+.banner {
+    /* background: url(../img/fon.jpg) no-repeat center #e0e7ed; */
+    background-image: url(../img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #e0e7ed;
+    /* background-size: cover; */
+    padding: 143px 0 286px;
+    margin-bottom: 80px;
+}
+
+.banner-title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 100%;
+    color: #00559D;
+    margin: 0;
+    margin-bottom: 49px;
+    width: 80%;
+}
+
+/* services */
+
+.services {
+    margin-bottom: 110px;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #00559D;
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item {
+    width: 280px;
+}
+
+.services-heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2C3036;
+    margin: 19px 0 20px;
+    width: 70%;
 }
 
 
