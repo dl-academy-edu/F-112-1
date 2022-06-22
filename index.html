@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -37,6 +37,7 @@
 		</nav>
 		<a href="tel:7194319698">719-431-9698</a>
 		<a href="contact.html" class="button">Contact Us</a>
+		
 	</header>
 
 	<main>
@@ -175,22 +176,27 @@
 
 	<section class="popup">
 		<h2 class="hidden">Modal Block</h2>
-		<form action="#" class="popup-form">
-			<div>
-				<div>
+		<form action="#" class="contact-form">
+			<div class="field-2-column">
+				<div class="label-wrapper">
 					<label for="input-name" class="">Name</label>
 					<input type="text" id="input-name" class="" placeholder="Ivan Ivanov">
 				</div>
-				<div>
+				<div class="label-wrapper">
 					<label for="input-phone" class="">Phone</label>
 					<input type="tel" id="input-phone" class="">
 				</div>
 			</div>
-			<div>
-				<label class="">
-					<span>E-mail</span>
-					<input type="email" class="">
-				</label>
+
+			<label class="label-wrapper">
+				<span>E-mail</span>
+				<input type="email" class="" disabled>
+			</label>
+
+
+			<div class="label-wrapper">
+				<label for="textarea">Message</label>
+				<textarea name="" id="textarea" cols="30" rows="10"></textarea>
 			</div>
 
 			<button type="submit" class="button">SUBMIT</button>
