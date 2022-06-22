@@ -12,7 +12,7 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -29,6 +29,12 @@ a {
     margin: 0;
     padding: 0;
     
+}
+
+.hidden {
+    font-size: 0;
+    line-height: 0;
+    width: 0;
 }
 
 .button {
@@ -76,8 +82,8 @@ a {
 /* MAP */
 
 .map {
-    background: url('../img/map.jpg') no-repeat;
-    background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .map .container {
@@ -85,12 +91,48 @@ a {
 }
 
 .map-wrapper {
+    position: relative;
+    z-index: 1;
     width: 380px;
     background: #008752;
     color: #fff;
     padding: 50px 44px 26px;
 }
 
+
+.map-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* FOOTER */
+
 .footer {
     background: #00559D;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social li {
+    margin-left: 16px;
 }
