@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato Ps', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
@@ -52,6 +52,13 @@ a {
     cursor: pointer;
 }
 
+.button:hover {
+    background: #26CD8B;
+}
+.button:active {
+    background: #005232;
+}
+
 .button-secondary {
     background: #95459A;
 }
@@ -61,6 +68,9 @@ a {
     align-items: center;
     margin-top: 33px;
     margin-bottom: 33px;
+    -moz-gap: 20px;
+        -webkit-gap: 20px;
+            gap: 20px;
 }
 
 .header-menu {
