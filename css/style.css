@@ -132,13 +132,27 @@
     justify-content: center;
 }
 
+.popup-open {
+    display: flex;
+}
+
 .popup-form {
     width: 680px;
     background: #EEEEEE;
     padding: 50px;
+    position: relative;
 /* 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
+}
+
+.popup-close {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
 }
